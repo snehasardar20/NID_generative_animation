@@ -1,0 +1,20 @@
+body {
+margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+canvas {
+display: block; /* Remove extra space below canvas */
+}
+
+html, body {
+margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevent scrolling */
+  touch-action: none; /* Disable default touch actions like scrolling/zooming */
+  -webkit-user-select: none; /* Disable text selection on iOS */
+  -moz-user-select: none; /* Disable text selection on Firefox */
+  -ms-user-select: none; /* Disable text selection on IE/Edge */
+  user-select: none; /* Disable text selection */
+}
