@@ -3,7 +3,7 @@ function setup() {
 }
 
 function draw() {
-  background(200, 150, 170);
+  background(255, 250, 158);
   fill(0,0,0);
   ellipse(200,215,110,130);
   fill(0,0,0);
@@ -28,7 +28,8 @@ function draw() {
   
   ellipse(230,140,40,40);
   ellipse(245,155,35,35);
-  ellipse(250,175,20,20); // Removed duplicate ellipse here
+  ellipse(250,175,20,20);
+  ellipse(250,175,20,20);
   ellipse(257,177,30,30);
   ellipse(260,195,30,30);
   ellipse(265,210,30,30);
@@ -43,7 +44,7 @@ function draw() {
   rect(247,187,10,22,0,5,5,0);
   fill(145, 30, 16);
   rect(145,191,5,14,5,0,0,5);
-  rect(250,191,5,14,0,5,5,0); // This line was re-typed
+  rect(250,191,5,14,0,5,5,0);
   
 
   //glass rim
@@ -72,6 +73,6 @@ function draw() {
   
   //mouth
   fill(145, 30, 16);
-  rect(192,229,20,3);
+  rect(190,229,20,3);
   
 }
